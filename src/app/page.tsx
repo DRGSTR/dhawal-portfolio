@@ -4,6 +4,7 @@ import FeaturedProjects from "@/components/FeaturedProjects";
 import PlayablePrototypes from "@/components/PlayablePrototypes";
 import SkillsMatrix from "@/components/SkillsMatrix";
 import ExperienceTimeline from "@/components/ExperienceTimeline";
+import EducationCertifications from "@/components/EducationCertifications";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <PlayablePrototypes />
       <SkillsMatrix />
       <ExperienceTimeline />
+      <EducationCertifications />
       <Footer />
     </main>
   );

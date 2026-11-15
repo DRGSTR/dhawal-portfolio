@@ -12,11 +12,12 @@ export default function Navbar() {
     { label: "Playable Builds", href: "#playable-builds", id: "playable-builds" },
     { label: "Skills Matrix", href: "#skills", id: "skills" },
     { label: "Experience", href: "#experience", id: "experience" },
+    { label: "Education", href: "#education", id: "education" },
     { label: "Contact", href: "#contact", id: "contact" },
   ];
 
   useEffect(() => {
-    const sectionIds = ["projects", "playable-builds", "skills", "experience", "contact"];
+    const sectionIds = ["projects", "playable-builds", "skills", "experience", "education", "contact"];
 
     const handleScroll = () => {
       const scrollPos = window.innerHeight + window.scrollY;
@@ -140,7 +141,7 @@ export default function Navbar() {
               href={PERSONAL_INFO.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              download="Dhawal_Jhaveri_Resume.pdf"
+              download="Dhawal_Jhaveri_Unity_Developer_Resume.pdf"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-mono font-medium bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 transition-all hover:border-emerald-500/50"
             >
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -156,7 +157,7 @@ export default function Navbar() {
               href={PERSONAL_INFO.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              download="Dhawal_Jhaveri_Resume.pdf"
+              download="Dhawal_Jhaveri_Unity_Developer_Resume.pdf"
               className="text-xs font-mono px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30"
             >
               Resume

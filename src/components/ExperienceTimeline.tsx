@@ -10,7 +10,7 @@ export default function ExperienceTimeline() {
           <div>
             <div className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-wider text-cyan-400 mb-2">
               <span className="w-2 h-2 rounded bg-cyan-400" />
-              Career Track & Education
+              Career Track & Work History
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
               Professional Experience

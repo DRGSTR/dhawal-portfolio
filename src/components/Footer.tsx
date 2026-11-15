@@ -165,7 +165,7 @@ export default function Footer() {
               href={PERSONAL_INFO.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              download="Dhawal_Jhaveri_Resume.pdf"
+              download="Dhawal_Jhaveri_Unity_Developer_Resume.pdf"
               className="hover:text-zinc-300 transition-colors"
             >
               Resume PDF

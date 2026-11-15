@@ -56,7 +56,7 @@ export default function Hero() {
               href={PERSONAL_INFO.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              download="Dhawal_Jhaveri_Resume.pdf"
+              download="Dhawal_Jhaveri_Unity_Developer_Resume.pdf"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-zinc-900/90 hover:bg-zinc-800 text-zinc-100 border border-zinc-700/80 hover:border-zinc-500 font-mono text-sm transition-all"
             >
               <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

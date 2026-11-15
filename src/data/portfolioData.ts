@@ -37,6 +37,19 @@ export interface ExperienceItem {
   highlights: string[];
 }
 
+export interface EducationCertificationItem {
+  id: string;
+  type: "certification" | "degree";
+  title: string;
+  institution: string;
+  yearOrPeriod: string;
+  location?: string;
+  primaryBadge: string;
+  secondaryBadge: string;
+  highlights: string[];
+  skills: string[];
+}
+
 export interface SkillCategory {
   title: string;
   icon: string;
@@ -54,7 +67,7 @@ export const PERSONAL_INFO = {
   github: "https://github.com/DRGSTR",
   linkedin: "https://www.linkedin.com/in/dhawal-jhaveri-534b75139",
   itchio: "https://drgstr.itch.io",
-  resumeUrl: "/Dhawal_Jhaveri_Resume.pdf",
+  resumeUrl: "/Dhawal_Jhaveri_Unity_Developer_Resume.pdf",
   gameplayDriveUrl: "https://drive.google.com/drive/folders/1tOU7B0j0posTf24T6YxBZW9aXYCorcix",
   summary:
     "Unity Developer with 2 years of professional experience engineering 2D, mobile, WebGL, and real-time multiplayer games in C#. Specialized in server-authoritative netcode (Socket.IO, WebSockets), client-side state recovery, REST API architectures, and performance profiling that reduced loading times by ~80% and build sizes from 900+ MB down to 100–170 MB via remote Addressables.",
@@ -420,15 +433,37 @@ export const EXPERIENCE_TIMELINE: ExperienceItem[] = [
       "Built strong leadership, client communication, and problem-solving fundamentals before pivoting fully into professional game engineering.",
     ],
   },
+];
+
+export const EDUCATION_AND_CERTIFICATIONS: EducationCertificationItem[] = [
   {
-    id: "education",
-    role: "B.E. Computer Science",
-    company: "Sinhgad Institute of Technology, Lonavala",
-    period: "Class of 2020",
-    type: "education",
+    id: "hero-vired-cert",
+    type: "certification",
+    title: "Certificate Program in Gaming & Esports (Unity Game Development)",
+    institution: "Hero Vired",
+    yearOrPeriod: "Professional Specialization",
+    primaryBadge: "VERIFIED CERTIFICATION",
+    secondaryBadge: "UNITY & C# SPECIALIZATION",
     highlights: [
-      "Core coursework in Object-Oriented Programming (OOP), Data Structures, Algorithms, Computer Networks, and Software Engineering.",
-      "Formed strong algorithmic foundation applied directly to multiplayer game netcode, state machines, and physics simulation.",
+      "Intensive industry-aligned training in Unity engine architecture, C# gameplay programming, 2D/3D physics, UI systems, and game design patterns.",
+      "Built end-to-end playable Unity prototypes and capstone builds applying ScriptableObjects, state machines, and optimization workflows.",
+      "Directly preceded full-time transition into commercial mobile and real-time multiplayer game development.",
     ],
+    skills: ["Unity Engine", "C# Gameplay", "Physics & Collisions", "ScriptableObjects", "State Machines", "Optimization Workflows"],
+  },
+  {
+    id: "sinhgad-be",
+    type: "degree",
+    title: "B.E. in Computer Science",
+    institution: "Sinhgad Institute of Technology, Lonavala",
+    yearOrPeriod: "2020",
+    primaryBadge: "BACHELOR'S DEGREE",
+    secondaryBadge: "COMPUTER SCIENCE",
+    highlights: [
+      "Strong foundation in Object-Oriented Programming (OOP), Data Structures, Algorithms, Computer Networks, and Software Engineering.",
+      "Applied foundational computer science principles to low-level socket communication, memory management, and computational efficiency.",
+      "Rigorous technical coursework bridging discrete math, operating systems, database management, and modular software architecture.",
+    ],
+    skills: ["OOP", "Data Structures", "Algorithms", "Computer Networks", "Software Engineering", "System Design"],
   },
 ];
